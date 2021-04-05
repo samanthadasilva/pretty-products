@@ -53,3 +53,46 @@ ol > li {
   justify-content: space-between;
   align-items: center;
 }
+
+h2 + img {
+  order: -1;
+  max-width: 15em;
+  margin: 1.5rem;
+}
+
+ol ul {
+  list-style-type: none;
+  padding: 0;
+
+  display: flex
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+ul a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+ul li {
+  padding: 0 .25em;
+}
+
+ul li:first-child {
+  margin-right: auto;
+}
+
+ul a img {
+  margin-right: .25em;
+}
+
+.btn {
+  background-color: #6f00e7;
+  color: #fff;
+  text-decoration: none;
+  padding: .5 1.5em .7em;
+  border-radius: 3em;
+  font-weight: bold;
+}
