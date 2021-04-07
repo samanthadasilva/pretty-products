@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1rem;
 }
 
 main {
@@ -57,23 +57,18 @@ ol > li {
 h2 + img {
   order: -1;
   max-width: 15em;
-  margin: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 ol ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
 
-  display: flex
+  display: flex;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
-}
-
-ul a {
-  display: flex;
-  justify-content: start;
-  align-items: center;
 }
 
 ul li {
@@ -84,6 +79,12 @@ ul li:first-child {
   margin-right: auto;
 }
 
+ul a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 ul a img {
   margin-right: .25em;
 }
@@ -92,7 +93,7 @@ ul a img {
   background-color: #6f00e7;
   color: #fff;
   text-decoration: none;
-  padding: .5 1.5em .7em;
+  padding: .5em 1.5em .7em;
   border-radius: 3em;
   font-weight: bold;
 }
